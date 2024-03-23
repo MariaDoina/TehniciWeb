@@ -1,0 +1,227 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.ad {
+  border: 1px solid rgb(99, 28, 116);
+  background-color: blueviolet;
+  height: 30px;
+}
+
+.ad ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.ad ul li {
+  margin-top: -11px;
+  font-size: 17px;
+  font-family: barlow condensed, sans-serif;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.ad ul li:first-child {
+  margin-right: 20%;
+}
+
+.ad ul li:last-child {
+  margin-left: 20%;
+}
+
+.ad ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* eliminăm marginul implicit al listei */
+}
+
+.nav ul li {
+  margin-top: 50px;
+  float: left;
+  position: relative;
+  left: 80%;
+  width: 100px;
+  font-family: barlow condensed, sans-serif;
+}
+
+.nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.nume_site {
+  font-size: 30px;
+  font-family: "Merienda", sans-serif;
+  text-transform: capitalize;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: purple;
+  margin-top: -70px;
+  margin-left: 80px;
+}
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background: #f6f6f6;
+  width: 600px;
+  transition: box-shadow 0.25s;
+  margin-left: 30%;
+  margin-top: -10px;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.search_input {
+  font-size: 16px;
+  font-family: "Lexend", sans-serif;
+  color: #333;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 300px;
+  flex: 1;
+}
+
+.search_input::placeholder,
+.search_icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.cover img {
+  margin-top: 5%;
+  background-size: cover;
+  width: 800px;
+  height: 700px;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.submit_input {
+  position: absolute;
+  top: 400%;
+  left: 35%;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: crimson;
+  border: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.submit_input:hover {
+  background-color: red;
+}
+
+.category_fem img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left: 12%;
+  top: 135%;
+  border: 1px solid darkgray;
+  transition: transform 0.3s;
+}
+
+.category_male img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left: 40%;
+  top: 135%;
+  transition: transform 0.3s;
+}
+
+.category_acc img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left: 67%;
+  top: 135%;
+  transition: transform 0.3s;
+}
+
+.submit_input1 {
+  color: black;
+  position: absolute;
+  left: 15.5%;
+  top: 175%;
+  border: 1px solid whitesmoke;
+  width: 200px;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit_input2 {
+  color: black;
+  position: absolute;
+  left: 43.5%;
+  top: 175%;
+  border: 1px solid whitesmoke;
+  width: 200px;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit_input3 {
+  color: black;
+  position: absolute;
+  left: 70.5%;
+  top: 175%;
+  border: 1px solid whitesmoke;
+  width: 200px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.category_fem img:hover {
+  transform: scale(1.1);
+}
+.category_male img:hover {
+  transform: scale(1.1);
+}
+.category_acc img:hover {
+  transform: scale(1.1);
+}
